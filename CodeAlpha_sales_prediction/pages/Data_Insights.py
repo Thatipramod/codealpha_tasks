@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
 import streamlit as st
+import os
 from model_utils import load_data, train_models
 
 # Page Configuration
@@ -11,7 +12,9 @@ st.set_page_config(page_title="Data Insights", page_icon="📊", layout="wide")
 # Load Cleaned Data
 @st.cache_data
 def get_data():
-    return load_data("cleaned_data.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_PATH = os.path.join(BASE_DIR, "cleaned_data.csv")
+    return load_data(DATA_PATH)
 
 
 # Train Models
