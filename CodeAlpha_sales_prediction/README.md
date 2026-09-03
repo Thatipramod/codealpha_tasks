@@ -6,9 +6,7 @@ The application predicts product sales using advertising expenditure across **TV
 
 ## 🚀 Live Demo
 
-👉 **Streamlit App:** [Open Live Demo](YOUR_STREAMLIT_APP_URL)
-
-> Replace `YOUR_STREAMLIT_APP_URL` with your deployed Streamlit URL.
+👉 **Streamlit App:** [Open Live Demo](https://sales-prediction-analytics.streamlit.app/)
 
 ## 📌 Project Overview
 
