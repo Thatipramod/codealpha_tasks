@@ -1,17 +1,22 @@
 import pandas as pd
 import streamlit as st
 from model_utils import load_data, train_models
+import os
+
+# Get the absolute path to the folder containing app.py
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "cleaned_data.csv")
 
 st.set_page_config(page_title="Predict Sales", page_icon="🔮", layout="wide")
 
 
 @st.cache_data
 def get_data():
-    return load_data("cleaned_data.csv")
+    return load_data(DATA_PATH)
 
 
 @st.cache_resource
-def get_models(df):
+def get_models():
     return train_models(df)
 
 
