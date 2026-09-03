@@ -254,15 +254,15 @@ After deployment, add the live URL at the top of this README under **Live Demo**
 
 ### GitHub Repository
 
-👉 [GitHub Repository](YOUR_GITHUB_REPO_URL)
+👉 [GitHub Repository](https://github.com/Thatipramod/codealpha_tasks/tree/main)
 
 ### Live Streamlit App
 
-👉 [Streamlit Live Demo](YOUR_STREAMLIT_APP_URL)
+👉 [Streamlit Live Demo](https://sales-prediction-analytics.streamlit.app/)
 
 ### LinkedIn
 
-👉 [LinkedIn Profile](YOUR_LINKEDIN_PROFILE_URL)
+👉 [LinkedIn Profile](https://www.linkedin.com/in/thati-pramod/)
 
 👉 [LinkedIn Project Post](YOUR_LINKEDIN_POST_URL)
 
