@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 from model_utils import load_data, train_models
 
@@ -6,7 +7,9 @@ st.set_page_config(page_title="Model Performance", page_icon="🤖", layout="wid
 
 @st.cache_data
 def get_data():
-    return load_data("Advertising.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    DATA_PATH = os.path.join(BASE_DIR, "cleaned_data.csv")
+    return load_data(DATA_PATH)
 
 
 @st.cache_resource
