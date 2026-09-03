@@ -1,7 +1,6 @@
 import os
 
 import streamlit as st
-
 from model_utils import load_data, train_models
 
 # Page Configuration
