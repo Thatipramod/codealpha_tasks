@@ -2,6 +2,12 @@ import os
 
 import streamlit as st
 from model_utils import load_data, train_models
+import os
+
+# Get the absolute path to the folder containing app.py
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "cleaned_data.csv")
+
 
 # Page Configuration
 st.set_page_config(
@@ -25,7 +31,7 @@ load_css()
 # Load Cleaned Data
 @st.cache_data
 def get_data():
-    return load_data("cleaned_data.csv")
+    return load_data(DATA_PATH)
 
 
 # Train Models
