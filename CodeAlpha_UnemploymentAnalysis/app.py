@@ -33,24 +33,7 @@ CARD_COLOR = "#FFFFFF"
 TEXT_COLOR = "#252A2A"
 MUTED_COLOR = "#6B7280"
 ACCENT_COLOR = "#A45A3F"
-BORDER_COLOR = "#D1D5D5"
-plt.rcParams.update(
-    {
-        "figure.facecolor": CARD_COLOR,
-        "axes.facecolor": CARD_COLOR,
-        "savefig.facecolor": CARD_COLOR,
-        "text.color": TEXT_COLOR,
-        "axes.labelcolor": TEXT_COLOR,
-        "xtick.color": TEXT_COLOR,
-        "ytick.color": TEXT_COLOR,
-        "grid.color": GRID_COLOR,
-        "grid.linestyle": "--",
-        "grid.alpha": 0.6,
-        "font.family": "sans-serif",
-    }
-)
-
-
+GRID_COLOR = "#D1D5D5"
 # Load cleaned data
 @st.cache_data
 def load_data():
