@@ -27,29 +27,38 @@
 
 .sidebar-subtitle {
     color: #858A90;
-    font-size: 0.82rem;
-    margin-bottom: 1.2rem;
+    font-size: .82rem;
 }
 
-/* Dashboard */
+/* Dashboard header */
+.dashboard-header {
+    background: #FBFAF7;
+    border: 1px solid #D9D6D0;
+    border-left: 4px solid #C47A68;
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 3px 12px rgba(74,79,85,.05);
+}
+
 .dashboard-title {
     color: #4A4F55;
     font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 0.2rem;
+    margin: 0;
 }
 
 .dashboard-subtitle {
     color: #858A90;
-    font-size: 0.92rem;
-    margin-bottom: 1.4rem;
+    font-size: .92rem;
+    margin: .35rem 0 0;
 }
 
 .section-title {
     color: #4A4F55;
     font-size: 1.2rem;
     font-weight: 650;
-    margin: 1.3rem 0 0.7rem;
+    margin: 1.3rem 0 .7rem;
 }
 
 /* Cards */
@@ -60,17 +69,15 @@
     background: #FBFAF7;
     border: 1px solid #D9D6D0;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(74, 79, 85, 0.05);
+    box-shadow: 0 3px 12px rgba(74,79,85,.05);
 }
 
 .dashboard-card {
     padding: 1.2rem;
-    margin-bottom: 1rem;
 }
 
 .project-card {
     padding: 1.1rem;
-    margin-bottom: 1rem;
 }
 
 .project-title {
@@ -79,9 +86,11 @@
     font-weight: 700;
 }
 
-.project-text {
+.project-text,
+.developer-info,
+.takeaway-text {
     color: #858A90;
-    font-size: 0.82rem;
+    font-size: .82rem;
     line-height: 1.5;
 }
 
@@ -97,21 +106,14 @@
 
 .developer-title {
     color: #4A4F55;
-    font-size: 0.9rem;
+    font-size: .9rem;
     font-weight: 700;
 }
 
 .developer-name {
     color: #C47A68;
-    font-size: 1.05rem;
     font-weight: 700;
-    margin: 0.2rem 0;
-}
-
-.developer-info {
-    color: #858A90;
-    font-size: 0.77rem;
-    line-height: 1.5;
+    margin: .2rem 0;
 }
 
 /* KPI */
@@ -122,14 +124,13 @@
 
 .kpi-label {
     color: #858A90;
-    font-size: 0.8rem;
+    font-size: .8rem;
 }
 
 .kpi-value {
     color: #4A4F55;
     font-size: 1.55rem;
     font-weight: 700;
-    margin-top: 0.3rem;
 }
 
 .kpi-icon {
@@ -138,13 +139,13 @@
 
 /* Tabs */
 .stTabs [data-baseweb="tab-list"] {
-    gap: 0.3rem;
+    gap: .3rem;
     border-bottom: 1px solid #D9D6D0;
 }
 
 .stTabs [data-baseweb="tab"] {
     color: #858A90;
-    padding: 0.6rem 0.9rem;
+    padding: .6rem .9rem;
 }
 
 .stTabs [aria-selected="true"] {
@@ -170,12 +171,16 @@
 }
 
 /* Buttons */
-.stButton > button {
-    background: #C47A68;
-    color: #FFFFFF;
-    border: none;
+.stButton > button,
+.stDownloadButton > button {
+    color: #FFF;
+    border: 0;
     border-radius: 8px;
     font-weight: 600;
+}
+
+.stButton > button {
+    background: #C47A68;
 }
 
 .stButton > button:hover {
@@ -184,10 +189,6 @@
 
 .stDownloadButton > button {
     background: #7E9CAF;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
 }
 
 .stDownloadButton > button:hover {
@@ -199,7 +200,7 @@
     background: #FBFAF7;
     border: 1px solid #D9D6D0;
     border-radius: 10px;
-    padding: 0.9rem;
+    padding: .9rem;
 }
 
 [data-testid="stMetricLabel"] {
@@ -226,19 +227,13 @@
 /* Takeaways */
 .takeaway-card {
     padding: 1rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: .7rem;
 }
 
 .takeaway-title {
     color: #C47A68;
-    font-size: 0.88rem;
+    font-size: .88rem;
     font-weight: 700;
-}
-
-.takeaway-text {
-    color: #4A4F55;
-    font-size: 0.8rem;
-    line-height: 1.5;
 }
 
 /* Highlight */
@@ -246,13 +241,7 @@
     background: #F4E9D8;
     border: 1px solid #D1A66D;
     border-radius: 10px;
-    padding: 0.8rem 1rem;
-    color: #4A4F55;
-}
-
-/* Alerts */
-.stAlert {
-    border-radius: 10px;
+    padding: .8rem 1rem;
 }
 
 /* Footer */
@@ -262,7 +251,7 @@
     border-top: 1px solid #D9D6D0;
     text-align: center;
     color: #858A90;
-    font-size: 0.78rem;
+    font-size: .78rem;
 }
 
 .footer strong {
@@ -298,12 +287,12 @@
     }
 
     .dashboard-subtitle {
-        font-size: 0.84rem;
+        font-size: .84rem;
     }
 
     .kpi-card {
         min-height: 100px;
-        padding: 0.9rem;
+        padding: .9rem;
     }
 
     .kpi-value {
@@ -311,6 +300,6 @@
     }
 
     .developer-card {
-        padding: 0.9rem;
+        padding: .9rem;
     }
 }
