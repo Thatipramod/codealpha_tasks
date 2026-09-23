@@ -28,12 +28,13 @@ load_css()
 
 
 # Theme colors
-BG_COLOR = "#F3F4F3"
+
+BG_COLOR = "#F5F9FF"
 CARD_COLOR = "#FFFFFF"
-TEXT_COLOR = "#252A2A"
-MUTED_COLOR = "#6B7280"
-ACCENT_COLOR = "#A45A3F"
-GRID_COLOR = "#D1D5D5"
+TEXT_COLOR = "#1E293B"
+MUTED_COLOR = "#64748B"
+ACCENT_COLOR = "#2563EB"
+GRID_COLOR = "#D9E2F0"
 # Load cleaned data
 @st.cache_data
 def load_data():
