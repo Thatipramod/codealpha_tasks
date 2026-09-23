@@ -28,12 +28,12 @@ load_css()
 
 
 # Theme colors
-BG_COLOR = "#F7F6FA"
+BG_COLOR = "#F3F4F3"
 CARD_COLOR = "#FFFFFF"
-TEXT_COLOR = "#3F3B47"
-MUTED_COLOR = "#817C8D"
-ACCENT_COLOR = "#7A718F"
-GRID_COLOR = "#E2DFE7"
+TEXT_COLOR = "#252A2A"
+MUTED_COLOR = "#6B7280"
+ACCENT_COLOR = "#A45A3F"
+BORDER_COLOR = "#D1D5D5"
 plt.rcParams.update(
     {
         "figure.facecolor": CARD_COLOR,
