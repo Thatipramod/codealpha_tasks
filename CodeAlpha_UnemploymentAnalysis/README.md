@@ -8,7 +8,7 @@ The project analyzes unemployment rate data, identifies **unemployment trends, s
 
 ## 🚀 Live Demo
 
-👉 **Streamlit App:** *Add your deployed Streamlit URL here*
+👉 **Streamlit App:https://unemployment-analytics.streamlit.app/
 
 ---
 
