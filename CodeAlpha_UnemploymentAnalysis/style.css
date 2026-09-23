@@ -1,0 +1,192 @@
+.stApp {
+    background: #F5F1E8;
+    color: #292524;
+}
+
+.block-container {
+    padding-top: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.dashboard-header {
+    background: #292524;
+    padding: 1.6rem;
+    border-radius: 14px;
+    border: 1px solid #44403C;
+    margin-bottom: 1.5rem;
+}
+
+.main-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #FFFDF8;
+    margin: 0;
+}
+
+.sub-title {
+    color: #D6D3D1;
+    font-size: .95rem;
+    margin-top: 6px;
+}
+
+.kpi-card {
+    background: #FFFDF8;
+    border: 1px solid #D6D3D1;
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(41, 37, 36, .06);
+}
+
+.kpi-label {
+    color: #78716C;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.kpi-value {
+    color: #C2410C;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+}
+
+.stTabs [data-baseweb="tab"] {
+    background: #E7E2D8;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #57534E;
+}
+
+.stTabs [aria-selected="true"] {
+    background: #C2410C;
+    color: white;
+}
+
+.stDownloadButton > button {
+    background: #292524;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.side-brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 2px 14px;
+}
+
+.side-icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #292524;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.side-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #292524;
+}
+
+.side-subtitle {
+    font-size: .75rem;
+    color: #78716C;
+    margin-top: 2px;
+}
+
+.side-line {
+    height: 1px;
+    background: #D6D3D1;
+    margin: 4px 0 22px;
+}
+
+.filter-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #292524;
+    margin-bottom: 4px;
+}
+
+.side-space {
+    height: 20px;
+}
+
+.project-card {
+    background: #FFFDF8;
+    border: 1px solid #D6D3D1;
+    border-left: 4px solid #C2410C;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.project-heading {
+    color: #C2410C;
+    font-size: .75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+}
+
+.project-name {
+    color: #292524;
+    font-size: .95rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.project-text {
+    color: #78716C;
+    font-size: .76rem;
+    line-height: 1.5;
+    margin-top: 5px;
+}
+
+.developer-card {
+    background: #292524;
+    border-radius: 10px;
+    padding: 15px;
+    color: #FFFDF8;
+}
+
+.developer-label {
+    color: #A8A29E;
+    font-size: .65rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+}
+
+.developer-name {
+    color: #FFFDF8;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+.developer-role {
+    color: #D6D3D1;
+    font-size: .73rem;
+    margin-top: 2px;
+}
+
+.developer-line {
+    height: 1px;
+    background: #57534E;
+    margin: 10px 0;
+}
+
+.developer-footer {
+    color: #FB923C;
+    font-size: .68rem;
+    font-weight: 600;
+}
