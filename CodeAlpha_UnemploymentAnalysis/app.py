@@ -27,17 +27,30 @@ def load_css():
 load_css()
 
 
-# Theme colors
 
 # Theme colors
-BG_COLOR = "#F1F7F2"
-CARD_COLOR = "#E5F0E7"
-TEXT_COLOR = "#496052"
-MUTED_COLOR = "#789080"
-ACCENT_COLOR = "#7FAF8A"
-SECONDARY_COLOR = "#A9C9AE"
-GOLD_COLOR = "#B8C99A"
-BORDER_COLOR = "#C9DDCD"
+BG_COLOR = "#F3F4F3"
+CARD_COLOR = "#FFFFFF"
+TEXT_COLOR = "#82E4E4"
+MUTED_COLOR = "#F2C2FC"
+ACCENT_COLOR = "#A45A3F"
+GRID_COLOR = "#D1D5D5"
+
+plt.rcParams.update(
+    {
+        "figure.facecolor": CARD_COLOR,
+        "axes.facecolor": CARD_COLOR,
+        "savefig.facecolor": CARD_COLOR,
+        "text.color": TEXT_COLOR,
+        "axes.labelcolor": TEXT_COLOR,
+        "xtick.color": TEXT_COLOR,
+        "ytick.color": TEXT_COLOR,
+        "grid.color": GRID_COLOR,
+        "grid.linestyle": "--",
+        "grid.alpha": 0.6,
+        "font.family": "sans-serif",
+    }
+)
 # Load cleaned data
 @st.cache_data
 def load_data():
