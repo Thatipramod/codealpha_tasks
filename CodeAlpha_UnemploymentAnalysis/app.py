@@ -26,32 +26,28 @@ def load_css():
 
 load_css()
 
-
-
 # Theme colors
-BG_COLOR = "#F4F7F3"
-CARD_COLOR = "#E8F0E8"
-TEXT_COLOR = "#38544A"
-MUTED_COLOR = "#70877D"
-ACCENT_COLOR = "#6F9F8B"
-SECONDARY_COLOR = "#A8C5B5"
-HIGHLIGHT_COLOR = "#D5B98A"
-GRID_COLOR = "#D4DED6"
-plt.rcParams.update(
-    {
-        "figure.facecolor": CARD_COLOR,
-        "axes.facecolor": CARD_COLOR,
-        "savefig.facecolor": CARD_COLOR,
-        "text.color": TEXT_COLOR,
-        "axes.labelcolor": TEXT_COLOR,
-        "xtick.color": TEXT_COLOR,
-        "ytick.color": TEXT_COLOR,
-        "grid.color": GRID_COLOR,
-        "grid.linestyle": "--",
-        "grid.alpha": 0.6,
-        "font.family": "sans-serif",
-    }
-)
+BG_COLOR = "#F5F3EF"
+CARD_COLOR = "#FBFAF7"
+TEXT_COLOR = "#4A4F55"
+MUTED_COLOR = "#858A90"
+ACCENT_COLOR = "#C47A68"
+SECONDARY_COLOR = "#7E9CAF"
+HIGHLIGHT_COLOR = "#D1A66D"
+GRID_COLOR = "#D9D6D0"
+plt.rcParams.update({
+    "figure.facecolor": CARD_COLOR,
+    "axes.facecolor": CARD_COLOR,
+    "savefig.facecolor": CARD_COLOR,
+    "text.color": TEXT_COLOR,
+    "axes.labelcolor": TEXT_COLOR,
+    "xtick.color": MUTED_COLOR,
+    "ytick.color": MUTED_COLOR,
+    "grid.color": GRID_COLOR,
+    "grid.linestyle": "--",
+    "grid.alpha": 0.5,
+    "font.family": "sans-serif",
+})
 # Load cleaned data
 @st.cache_data
 def load_data():
