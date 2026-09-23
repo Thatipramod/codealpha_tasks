@@ -30,14 +30,14 @@ load_css()
 # Theme colors
 
 # Theme colors
-BG_COLOR = "#FFF4F1"          
-CARD_COLOR = "#FFE8E2"        
-TEXT_COLOR = "#5B4A52"        
-MUTED_COLOR = "#927D87"       
-ACCENT_COLOR = "#D98B7A"      
-SECONDARY_COLOR = "#AFC9DC"   
-GOLD_COLOR = "#D8B77A"       
-BORDER_COLOR = "#E8CFC8"      
+BG_COLOR = "#F1F7F2"
+CARD_COLOR = "#E5F0E7"
+TEXT_COLOR = "#496052"
+MUTED_COLOR = "#789080"
+ACCENT_COLOR = "#7FAF8A"
+SECONDARY_COLOR = "#A9C9AE"
+GOLD_COLOR = "#B8C99A"
+BORDER_COLOR = "#C9DDCD"
 # Load cleaned data
 @st.cache_data
 def load_data():
