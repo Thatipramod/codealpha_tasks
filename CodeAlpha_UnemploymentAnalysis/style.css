@@ -1,7 +1,7 @@
 /* Dashboard styling */
 .stApp{
-    background:#F7F6FA;
-    color:#3F3B47;
+    background:#F3F4F3;
+    color:#252A2A;
 }
 .block-container{
     padding-top:1.8rem;
@@ -10,41 +10,41 @@
 
 /* Header */
 .dashboard-header{
-    background:#EEEAF2;
+    background:#E9E8E5;
     padding:1.6rem;
     border-radius:14px;
-    border:1px solid #E2DFE7;
+    border:1px solid #D1D5D5;
     margin-bottom:1.5rem;
 }
 .main-title{
     font-size:2.1rem;
     font-weight:700;
-    color:#3F3B47;
+    color:#252A2A;
     margin:0;
 }
 .sub-title{
-    color:#817C8D;
+    color:#6B7280;
     font-size:.95rem;
     margin-top:6px;
 }
 
 /* KPI cards */
 .kpi-card{
-    background:#FFF;
-    border:1px solid #E2DFE7;
+    background:#FFFFFF;
+    border:1px solid #D1D5D5;
     border-radius:12px;
     padding:16px;
     text-align:center;
-    box-shadow:0 2px 8px rgba(63,59,71,.06);
+    box-shadow:0 2px 8px rgba(37,42,42,.06);
 }
 .kpi-label{
-    color:#817C8D;
+    color:#6B7280;
     font-size:.8rem;
     text-transform:uppercase;
     letter-spacing:.06em;
 }
 .kpi-value{
-    color:#7A718F;
+    color:#A45A3F;
     font-size:1.7rem;
     font-weight:700;
     margin-top:5px;
@@ -55,26 +55,26 @@
     gap:8px;
 }
 .stTabs [data-baseweb="tab"]{
-    background:#F0EDF4;
+    background:#EAEAE7;
     border-radius:8px;
     padding:8px 16px;
-    color:#5F5969;
+    color:#5F6363;
 }
 .stTabs [aria-selected="true"]{
-    background:#7A718F;
-    color:#FFF;
+    background:#A45A3F;
+    color:#FFFFFF;
 }
 
 /* Buttons */
 .stDownloadButton>button{
-    background:#7A718F;
-    color:#FFF;
+    background:#A45A3F;
+    color:#FFFFFF;
     border-radius:8px;
     border:none;
 }
 .stDownloadButton>button:hover{
-    background:#6D647F;
-    color:#FFF;
+    background:#914C34;
+    color:#FFFFFF;
 }
 
 /* Sidebar */
@@ -90,29 +90,29 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    background:#EAE5F0;
+    background:#E8E6E2;
     border-radius:10px;
     font-size:20px;
 }
 .side-title{
     font-size:1.05rem;
     font-weight:700;
-    color:#3F3B47;
+    color:#252A2A;
 }
 .side-subtitle{
     font-size:.75rem;
-    color:#817C8D;
+    color:#6B7280;
     margin-top:2px;
 }
 .side-line{
     height:1px;
-    background:#E2DFE7;
+    background:#D1D5D5;
     margin:4px 0 22px;
 }
 .filter-title{
     font-size:1.05rem;
     font-weight:700;
-    color:#3F3B47;
+    color:#252A2A;
     margin-bottom:4px;
 }
 .side-space{
@@ -121,27 +121,27 @@
 
 /* Project card */
 .project-card{
-    background:#FFF;
-    border:1px solid #E2DFE7;
-    border-left:4px solid #7A718F;
+    background:#FFFFFF;
+    border:1px solid #D1D5D5;
+    border-left:4px solid #A45A3F;
     border-radius:10px;
     padding:14px;
 }
 .project-heading{
-    color:#7A718F;
+    color:#A45A3F;
     font-size:.75rem;
     font-weight:700;
     text-transform:uppercase;
     letter-spacing:.06em;
 }
 .project-name{
-    color:#3F3B47;
+    color:#252A2A;
     font-size:.95rem;
     font-weight:700;
     margin-top:5px;
 }
 .project-text{
-    color:#817C8D;
+    color:#6B7280;
     font-size:.76rem;
     line-height:1.5;
     margin-top:5px;
@@ -149,67 +149,67 @@
 
 /* Developer card */
 .developer-card{
-    background:#EEEAF2;
-    border:1px solid #E2DFE7;
+    background:#E9E8E5;
+    border:1px solid #D1D5D5;
     border-radius:10px;
     padding:15px;
-    color:#3F3B47;
+    color:#252A2A;
 }
 .developer-label{
-    color:#817C8D;
+    color:#6B7280;
     font-size:.65rem;
     font-weight:700;
     letter-spacing:.08em;
 }
 .developer-name{
-    color:#3F3B47;
+    color:#252A2A;
     font-size:1.05rem;
     font-weight:700;
     margin-top:3px;
 }
 .developer-role{
-    color:#817C8D;
+    color:#6B7280;
     font-size:.73rem;
     margin-top:2px;
 }
 .developer-line{
     height:1px;
-    background:#D9D5DF;
+    background:#D1D5D5;
     margin:10px 0;
 }
 .developer-footer{
-    color:#7A718F;
+    color:#A45A3F;
     font-size:.68rem;
     font-weight:600;
 }
 
-/* Streamlit inputs */
+/* Inputs */
 .stSelectbox label,
 .stDateInput label{
-    color:#3F3B47;
+    color:#252A2A;
 }
 .stSelectbox [data-baseweb="select"]>div{
-    background:#FFF;
-    border-color:#E2DFE7;
+    background:#FFFFFF;
+    border-color:#D1D5D5;
 }
 
 /* Dataframe */
 .stDataFrame{
-    border:1px solid #E2DFE7;
+    border:1px solid #D1D5D5;
     border-radius:10px;
 }
 
-/* Chart containers */
+/* Chart container */
 .chart-card{
-    background:#FFF;
-    border:1px solid #E2DFE7;
+    background:#FFFFFF;
+    border:1px solid #D1D5D5;
     border-radius:12px;
     padding:12px;
 }
 
 /* Footer */
 .footer{
-    color:#817C8D;
+    color:#6B7280;
     text-align:center;
     font-size:.75rem;
     margin-top:25px;
