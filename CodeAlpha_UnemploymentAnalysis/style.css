@@ -1,0 +1,215 @@
+/* Base */
+.stApp {
+    background: #F5F3EF;
+    color: #4A4F55;
+}
+
+.main .block-container {
+    max-width: 1400px;
+    padding: 2rem 2.5rem 3rem;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background: #FBFAF7;
+    border-right: 1px solid #D9D6D0;
+}
+
+[data-testid="stSidebar"] > div:first-child {
+    padding: 1.5rem 1rem;
+}
+
+.side-brand {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+    margin-bottom: 1rem;
+}
+
+.side-icon {
+    font-size: 1.5rem;
+}
+
+.side-title {
+    color: #4A4F55;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.side-subtitle {
+    color: #858A90;
+    font-size: .9rem;
+}
+
+.filter-title {
+    color: #4A4F55;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1rem 0 .4rem;
+}
+
+/* Header */
+.dashboard-header {
+    background: #FBFAF7;
+    border: 1px solid #D9D6D0;
+    border-left: 4px solid #C47A68;
+    border-radius: 12px;
+    padding: 1.2rem 1.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-title {
+    color: #4A4F55;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.sub-title {
+    color: #858A90;
+    font-size: .92rem;
+    margin-top: .35rem;
+}
+
+/* Sidebar cards */
+.project-card,
+.developer-card {
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.project-card {
+    background: #FBFAF7;
+    border: 1px solid #D9D6D0;
+}
+
+.project-heading,
+.project-name {
+    color: #4A4F55;
+    font-weight: 700;
+}
+
+.project-name {
+    margin: .3rem 0;
+}
+
+.project-text,
+.developer-role {
+    color: #858A90;
+    font-size: .82rem;
+    line-height: 1.5;
+}
+
+.developer-card {
+    background: #F1ECE7;
+    border: 1px solid #D9D6D0;
+    border-left: 4px solid #C47A68;
+}
+
+.developer-label {
+    color: #4A4F55;
+    font-size: .82rem;
+    font-weight: 700;
+}
+
+.developer-name {
+    color: #C47A68;
+    font-weight: 700;
+    margin: .35rem 0;
+}
+
+/* KPI cards */
+.kpi-card {
+    background: #FBFAF7;
+    border: 1px solid #D9D6D0;
+    border-radius: 12px;
+    padding: 1.1rem;
+    min-height: 115px;
+    box-shadow: 0 3px 12px rgba(74, 79, 85, .05);
+}
+
+.kpi-label {
+    color: #858A90;
+    font-size: .8rem;
+}
+
+.kpi-value {
+    color: #4A4F55;
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-top: .35rem;
+}
+
+/* Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: .3rem;
+    border-bottom: 1px solid #D9D6D0;
+}
+
+.stTabs [data-baseweb="tab"] {
+    color: #858A90;
+    padding: .6rem .9rem;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #C47A68 !important;
+    border-bottom: 3px solid #C47A68 !important;
+}
+
+/* Inputs */
+.stSelectbox label,
+.stDateInput label {
+    color: #4A4F55 !important;
+    font-weight: 600;
+}
+
+[data-baseweb="select"] > div,
+[data-baseweb="input"] {
+    background: #FBFAF7;
+    border: 1px solid #D9D6D0;
+    border-radius: 8px;
+}
+
+/* Download button */
+.stDownloadButton > button {
+    background: #7E9CAF;
+    color: #FFF;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.stDownloadButton > button:hover {
+    background: #687F91;
+}
+
+/* Tables and charts */
+[data-testid="stDataFrame"] {
+    border: 1px solid #D9D6D0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .main .block-container {
+        padding: 1rem;
+    }
+
+    .main-title {
+        font-size: 1.6rem;
+    }
+
+    .sub-title {
+        font-size: .84rem;
+    }
+
+    .kpi-card {
+        min-height: 100px;
+        padding: .9rem;
+    }
+
+    .kpi-value {
+        font-size: 1.3rem;
+    }
+}
