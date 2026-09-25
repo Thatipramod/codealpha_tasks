@@ -39,9 +39,11 @@ Analyzed unemployment rate data using Python to understand overall trends, COVID
 - Matplotlib
 - Seaborn
 - Streamlit
+  
+**Live Demo:**  
+https://unemployment-analytics.streamlit.app/
 
 ### Project Folder
-
 [`CodeAlpha_UnemploymentAnalysis`](./CodeAlpha_UnemploymentAnalysis)
 
 ---
