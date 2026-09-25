@@ -8,7 +8,7 @@ The project analyzes unemployment rate data, identifies **unemployment trends, s
 
 ## 🚀 Live Demo
 
-👉https://unemployment-analytics.streamlit.app/
+👉 **Streamlit App:** [Open Live Demo](https://unemployment-analytics.streamlit.app/)
 
 ---
 
@@ -308,7 +308,7 @@ Then select `app.py` as the main application file during deployment.
 
 ### Live Streamlit App
 
-👉 https://unemployment-analytics.streamlit.app/
+👉 **Streamlit App:** [Open Live Demo](https://unemployment-analytics.streamlit.app/)
 
 ### LinkedIn
 
